@@ -3,7 +3,11 @@
     --light-col: #e5e5e5;
     --dark-col: #0F0506;
     --content-font: "Open Sans";
-    --title-font: "Cantata One";
+}
+
+@font-face {
+    font-family: "Open Sans";
+    src: url("/img/OpenSans.ttf");
 }
 
 body {
