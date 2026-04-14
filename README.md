@@ -1,3 +1,5 @@
 <div align=center>
-    <img src="./img/funny_image.jpg" />
+    <a href="https://www.youtube.com/watch?v=dQw4w9WgXcQ">
+        <img src="./img/funny_image.jpg" />
+    </a>
 </div>
