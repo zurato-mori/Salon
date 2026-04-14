@@ -50,7 +50,12 @@ input {
     font-size: 1rem;
 
     box-shadow: none;
+
+    background-color: var(--light-col);
+
+    transition: all 220ms;
 }
+
 select {
     font-size: 1rem;
     padding: 1rem;
@@ -59,7 +64,16 @@ select {
 
     border: none;
     border-radius: 0;
+
+    background-color: var(--light-col);
+
+    transition: all 220ms;
 }
+select:hover {
+    background-color: var(--pink-col);
+    cursor: pointer;
+}
+
 textarea {
     padding: 1rem;
     resize: none;
@@ -67,6 +81,7 @@ textarea {
     border: none;
     border-radius: 0;
 }
+
 textarea:focus, input:focus{
     outline: none;
 }

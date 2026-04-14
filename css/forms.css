@@ -2,6 +2,17 @@ main {
     background-color: #111;
 }
 
+@keyframes form_flow {
+    from {
+        opacity: 0;
+        transform: translateY(.5rem);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0rem);
+    }
+}
+
 form {
     box-sizing: border-box;
     
@@ -21,6 +32,8 @@ form {
     margin: 0 2rem;
 
     gap: 1rem;
+
+    animation: form_flow 1s forwards ease-in-out;
 }
 
 form label {
@@ -40,4 +53,9 @@ select {
 
 #submit_button {
     width: calc(100% + 2rem);
+}
+
+#submit_button:hover {
+    background-color: var(--pink-col);
+    cursor: pointer;
 }

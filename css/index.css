@@ -1,3 +1,13 @@
+@keyframes flow {
+    from {
+        opacity: 0;
+    }
+    to {
+        opacity: 1;
+    }
+}
+
+
 video {
     position: absolute;
 
@@ -14,7 +24,10 @@ video {
     pointer-events: none;
 
     filter: blur(2rem) opacity(.5) contrast(2);
+
+    animation: flow 5s forwards ease-in-out;
 }
+
 section {
     width: 100vw;
     height: 100vh;
