@@ -8,6 +8,7 @@ section {
 
     width: 100%;
     height: 100%;
+    
     background-color: beige;
 }
 h2 {
@@ -27,6 +28,12 @@ h2 {
 
     font-family: var(--content-font);
     color: var(--dark-col);
+}
+.photos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
 }
 .photos img {
     width: 15rem;
