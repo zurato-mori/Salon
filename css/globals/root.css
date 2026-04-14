@@ -30,13 +30,6 @@ main {
     align-items: center;
 }
 
-#logo {
-    width: auto;
-    height: 9vh;
-    justify-content: center;
-    align-items: center;
-}
-
 a {
     text-decoration: none;
     color: inherit;
