@@ -1,0 +1,11 @@
+body {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+#logo {
+    width: auto;
+    height: 9vh;
+    justify-content: center;
+    align-items: center;
+}
