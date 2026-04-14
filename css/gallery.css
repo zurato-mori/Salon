@@ -1,19 +1,20 @@
 section {
     width: 100vw;
-    height: 70%;
+    height: 80%;
     background-color: beige;
 }
 h2 {
     font-style: bold;
     color: var(--dark-col);
     text-align: center;
-    font-size: 3rem;
+    font-size: 3.5rem;
     font-family: var(--content-font);
 }
 .gallery {
     display: flex;
     justify-content: space-around;
     align-items: center;
+    border-spacing: 1rem;
     width: 100%;
     font-family: var(--content-font);
     color: var(--dark-col);
@@ -21,9 +22,15 @@ h2 {
 .photos img {
     width: 15rem;
     height: 15rem;
+    transition: all .5s;
 }
-
+.photos img:hover {
+    width: 17rem;
+    height: 17rem;
+    padding: 0 0 1rem 0;
+}
 .info td {
-    /* height: 3rem; */
+    height: 1rem;
+    font-size: 1.25rem;
     text-align: center;
 }
