@@ -28,6 +28,7 @@ h2 {
     width: 17rem;
     height: 17rem;
     padding: 0 0 1rem 0;
+    cursor: pointer;
 }
 .info td {
     height: 1rem;
