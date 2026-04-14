@@ -11,7 +11,7 @@
         <link rel="stylesheet" href="/css/globals/header.css">
         <link rel="stylesheet" href="/css/globals/footer.css">
         <link rel="stylesheet" href="/css/globals/root.css">
-        <link rel="stylesheet" href="/css/index.css">
+        <link rel="stylesheet" href="/css/forms.css">
     </head>
     <body>
         <header>
@@ -27,12 +27,21 @@
         </header>
 
         <main>
-            <section class="forms">
-                <h2></h2>
-                <input type="text" placeholder="Ім'я">
-                <input type="text" placeholder="Ім'я">
-                <input type="text" placeholder="Ім'я">
-            </section>
+            <form action="#">
+                <label for="topic">Маєте запитання? Задайте його нам!</label>
+               
+                <input type="text" id="email_field" placeholder="Ваш e-mail">
+                
+                <select name="topic" id="topic_items">
+                    <option value="consult">Консультацiя</option>
+                    <option value="suggestions">Речення</option>
+                    <option value="other">Iнше</option>
+                </select>
+
+                <textarea rows="10" placeholder="Ваше повідомлення"></textarea>
+
+                <input id="submit_button" type="submit" value="Вислати">
+            </form>
         </main>
 
     <footer>
