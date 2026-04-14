@@ -4,8 +4,8 @@ header {
 
     width: 100vw;
     height: 10rem;
-    background-color: #fff;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: var(--light-col);
+    font-family: var(--content-font);
     font-size: 100%;
 
     display: flex;
@@ -28,17 +28,16 @@ nav {
 
 #nav_items {
     display: flex;
-    /* margin: 0 50px 0 0 ; */
     list-style-type: none;
     align-items: center;
     gap: 2rem;
 }
 
-#nav li {
-    color: #000;
-    transition: all .2s;
+#nav_items li {
+    color: var(--dark-col);
+    transition: all 120ms;
 }
 
-#nav li:hover {
-    color: #ffb5df;
+#nav_items li:hover {
+    opacity: .3;
 }

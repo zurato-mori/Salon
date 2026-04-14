@@ -1,25 +1,39 @@
 footer {
+    height: 5rem;
+    width: 100vw;
+
     bottom: 0;
     position: absolute;
 
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+
+    justify-content: center;
     align-items: center;
-    height: 5rem;
-    width: 100vw;
 
     color: var(--light-col);
     background-color: var(--dark-col);
 }
 
 #footer_items {
+    display: flex;
+    flex-direction: row;
+
+    align-items: center;
+    justify-content: space-between;
+    
+    width: 100%;
+    max-width: 50rem;
+
+    margin: 0 2rem;
+}
+
+#footer_items ol {
     gap: 2rem;
     list-style-type: none;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
-
+    font-family: var(--content-font);
 }
 
 #author {
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: var(--content-font);
 }

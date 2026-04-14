@@ -2,6 +2,8 @@
     --pink-col: #ffc6e0;
     --light-col: #DBD5CA;
     --dark-col: #0F0506;
+    --content-font: "Open Sans";
+    --title-font: "Cantata One";
 }
 
 body {
