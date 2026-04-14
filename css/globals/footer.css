@@ -1,14 +1,19 @@
 footer {
+    bottom: 0;
+    position: absolute;
+
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: space-between;
     align-items: center;
-    height: 5vh;
+    height: 5rem;
     width: 100vw;
-    background-color: #f1c9e4;
+
+    color: var(--light-col);
+    background-color: var(--dark-col);
 }
 
-.footer, .media {
+#footer_items {
     gap: 2rem;
     list-style-type: none;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;

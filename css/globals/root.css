@@ -1,7 +1,19 @@
+:root {
+    --pink-col: #ffc6e0;
+    --light-col: #DBD5CA;
+    --dark-col: #0F0506;
+}
 body {
+    position: relative;
+    
+    width: 100vw;
+    height: 100vh;
+
     margin: 0;
     padding: 0;
     overflow: hidden;
+
+    user-select: none;
 }
 #logo {
     width: auto;

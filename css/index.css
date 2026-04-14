@@ -1,9 +1,14 @@
 video {
-    position: fixed;
-    right: 0;
-    bottom: 0;
-    min-width: 100%;
-    min-height: 100%;
+    position: absolute;
+
+    top: 0;
+    left: 0;
+
+    width: 100%;
+    height: 100%;
+    
+    object-fit: fill;
+
     z-index: -1;
     opacity: 80%;
 }
@@ -14,8 +19,8 @@ a {
 }
 
 main {
-    width: 100vw;
-    height: 73vh;
+    width: 100%;
+    height: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -24,21 +29,23 @@ main {
     font-size: 2.25rem;
 }
 
-#more_info {
-    width: 15vw;
-    height: 7vh;
-    background-color: #f3167d;
-    border: 1px solid #f3167d;
-    border-radius: 10% / 50%;
-    text-align: center;
-    color: #fff;
-    font-style: bold;
+#more_info_btn {
+    width: 15rem;
+    height: 5rem;
+    
+    background-color: var(--pink-col);
+
+    color: var(--dark-col);
     font-size: 1.5rem;
-    box-shadow: #000 10px;
-    transition: .5s all;
+
+    border: none;
+    border-radius: 2.5rem;
+
+    transition: 120ms all;
 }
 
 #more_info:hover {
-    background-color: #fff;
-    color: #f3167d;
+    background-color: var(--dark-col);
+    color: var(--pink-col);
+    cursor: pointer;
 }
