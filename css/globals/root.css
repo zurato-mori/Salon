@@ -69,6 +69,7 @@ select {
 
     transition: all 220ms;
 }
+
 select:hover {
     background-color: var(--pink-col);
     cursor: pointer;
