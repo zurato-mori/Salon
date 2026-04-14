@@ -16,8 +16,18 @@ video {
     filter: blur(2rem) opacity(.5) contrast(2);
 }
 section {
+    width: 100vw;
+    height: 100vh;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
     text-align: center;
-    font-family: var(--title-font);
+    font-family: var(--content-font);
+
     color: var(--light-col);
-    font-size: 2rem;
+}
+section h1 {
+    font-size: 4rem;
 }

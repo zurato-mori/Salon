@@ -2,7 +2,7 @@ footer {
     bottom: 0;
     position: absolute;
 
-    height: 10rem;
+    height: 6rem;
     width: 100vw;
 
     display: flex;
@@ -35,7 +35,7 @@ footer {
     align-items: center;
     justify-content: center;
 
-    gap: 2rem;
+    gap: 1.5rem;
     list-style-type: none;
     font-family: var(--content-font);
 }
@@ -52,4 +52,10 @@ footer {
     background-size: 100%;
     background-position: center;
     background-repeat: no-repeat;
+
+    transition: all 120ms;
+}
+.social_icon:hover {
+    opacity: .3;
+    cursor: pointer;
 }

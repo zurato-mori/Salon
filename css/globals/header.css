@@ -3,8 +3,8 @@ header {
     position: absolute;
 
     width: 100vw;
-    height: 10rem;
-    
+    height: 6rem;
+
     background-color: var(--light-col);
     font-family: var(--content-font);
     font-size: 100%;
@@ -43,6 +43,12 @@ nav {
     opacity: .3;
 }
 
+
 #logo {
+    width: auto;
+    height: 3rem;
+    justify-content: center;
+    align-items: center;
+
     filter: grayscale() contrast(0) brightness(0);
 }
