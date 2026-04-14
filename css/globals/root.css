@@ -1,6 +1,6 @@
 :root {
     --pink-col: #ffc6e0;
-    --light-col: #DBD5CA;
+    --light-col: #e5e5e5;
     --dark-col: #0F0506;
     --content-font: "Open Sans";
     --title-font: "Cantata One";
@@ -17,6 +17,8 @@ body {
     overflow: hidden;
 
     user-select: none;
+
+    background-color: var(--dark-col);
 }
 
 main {

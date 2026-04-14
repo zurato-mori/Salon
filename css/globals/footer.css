@@ -1,9 +1,9 @@
 footer {
-    height: 5rem;
-    width: 100vw;
-
     bottom: 0;
     position: absolute;
+
+    height: 10rem;
+    width: 100vw;
 
     display: flex;
     flex-direction: row;
@@ -29,6 +29,12 @@ footer {
 }
 
 #footer_items ol {
+    display: flex;
+    flex-direction: row;
+    
+    align-items: center;
+    justify-content: center;
+
     gap: 2rem;
     list-style-type: none;
     font-family: var(--content-font);
@@ -36,4 +42,14 @@ footer {
 
 #author {
     font-family: var(--content-font);
+}
+#icon_0 {
+    width: 2rem;
+    height: 2rem;
+
+    background: url("/img/icon_placeholder.svg");
+
+    background-size: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
 }

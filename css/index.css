@@ -10,38 +10,14 @@ video {
     object-fit: cover;
 
     z-index: -1;
-    opacity: 80%;
 
     pointer-events: none;
+
+    filter: blur(2rem) opacity(.5) contrast(2);
 }
 section {
     text-align: center;
     font-family: var(--title-font);
+    color: var(--light-col);
     font-size: 2rem;
-}
-section h1 {
-    width: 30rem;
-}
-
-#more_info_btn {
-    width: 15rem;
-    height: 5rem;
-    
-    background-color: var(--pink-col);
-
-    color: var(--dark-col);
-    font-size: 1.5rem;
-
-    font-family: var(--content-font);
-
-    border: none;
-    border-radius: 2.5rem;
-
-    transition: 120ms all;
-}
-
-#more_info_btn:hover {
-    background-color: var(--dark-col);
-    color: var(--pink-col);
-    cursor: pointer;
 }

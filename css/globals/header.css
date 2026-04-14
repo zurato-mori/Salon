@@ -4,6 +4,7 @@ header {
 
     width: 100vw;
     height: 10rem;
+    
     background-color: var(--light-col);
     font-family: var(--content-font);
     font-size: 100%;
@@ -40,4 +41,8 @@ nav {
 
 #nav_items li:hover {
     opacity: .3;
+}
+
+#logo {
+    filter: grayscale() contrast(0) brightness(0);
 }
