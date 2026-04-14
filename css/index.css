@@ -29,4 +29,5 @@ section {
     color: var(--light-col);
 
     font-size: 2rem;
+    font-weight: 100;
 }
