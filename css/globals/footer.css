@@ -43,9 +43,9 @@ footer {
 #author {
     font-family: var(--content-font);
 }
-#icon_0 {
-    width: 2rem;
-    height: 2rem;
+.social_icon {
+    width: 1.5rem;
+    height: 1.5rem;
 
     background: url("/img/icon_placeholder.svg");
 
