@@ -43,7 +43,6 @@ section div {
     width: 100%;
     max-width: 65rem;
     height: 85%;
-    /* border: 1px solid var(--pink-col); */
 }
 
 #description {
