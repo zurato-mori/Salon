@@ -16,15 +16,19 @@
     <body>
         <main>
             <form action="#">
-                <label for="topic">Маєте запитання? Поставте його нам!</label>
+                <label for="topic">Запис на процедуру</label>
                
-                <input type="text" id="email_field" placeholder="Ваш e-mail">
+                <input type="text" id="name_field" placeholder="Ваше ім'я">
+
+                <input type="text" id="email_field" placeholder="Ваш e-mail або номер телефону">
                 
                 <select name="topic" id="topic_items">
-                    <option value="consult">Консультацiя</option>
-                    <option value="suggestions">Пропозиції</option>
-                    <option value="other">Iнше</option>
+                    <option value="consult">Татуаж</option>
+                    <option value="suggestions">Макіяж</option>
+                    <option value="other">Манікюр</option>
                 </select>
+
+                <input type="date" id="date_field" placeholder="Оберіть дату запису">
 
                 <textarea rows="10" placeholder="Ваше повідомлення"></textarea>
 
